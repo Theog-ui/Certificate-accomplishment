@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .details {
+            flex: 1;
+            padding: 20px;
+        }
+        .certificate {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cert-img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <h1>Artificial Intelligence in Marketing</h1>
+            <p><strong>Completed by:</strong> Lopamudra Naik</p>
+            <p><strong>Date:</strong> March 5, 2025</p>
+            <p><strong>Grade Achieved:</strong> 95.5%</p>
+            <p><strong>Instructor:</strong> ChatGPT</p>
+            <p><strong>Credential ID:</strong> AI-MKT-2025-001</p>
+        </div>
+        <div class="certificate">
+            <img src="certificate.png" alt="Certificate" class="cert-img">
+        </div>
+    </div>
+</body>
+</html>
